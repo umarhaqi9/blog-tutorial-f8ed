@@ -28,13 +28,17 @@ export default function Posts() {
             >
               {post.title}
             </Link>
-            <p>      </p>
-            <Link to="admin" className="text-red-600 underline">
-              Admin
-            </Link>
           </li>
-        ))}
+        ))
+        }
+        <li>
+        <Link to="admin" className="text-red-600 underline">
+              Admin
+        </Link>
+        </li>
       </ul>
     </main>
+
   );
+  
 }
